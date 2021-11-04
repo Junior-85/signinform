@@ -1,0 +1,198 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@400;700;900&display=swap");
+
+body {
+  font-family: "Roboto", sans-serif;
+  margin-top: 10px;
+}
+
+.container-principal {
+  width: 80%;
+  background: rgb(233, 238, 237);
+  margin: auto;
+  max-width: 700px;
+  border-radius: 5px;
+}
+
+header {
+  margin: Auto;
+  background: #e3e7f7;
+  width: 80%;
+  max-width: 700px;
+  border-radius: 5px;
+}
+
+.container-nome-curso {
+  margin: auto;
+  background: #e3e7f7;
+  width: 400px;
+}
+
+.nome-curso {
+  color: rgb(90, 89, 89);
+  text-align: center;
+}
+
+.modulo {
+  margin: 20px;
+}
+
+.aula {
+  padding: 10px;
+  background: #EBEBEB;
+  margin: 10px;
+  border-radius: 10px 0 10px 10px;
+  position: relative;
+}
+
+.aula h2 {
+  color: rgb(98, 98, 114);
+  margin-bottom: 10px;
+}
+
+.aula p {
+  border: 1px solid red;
+  color: black;
+  font-size: 16px;
+  padding: 10px;
+}
+
+h2,
+h1,
+h6 {
+  color: rgb(98, 98, 114);
+}
+
+footer {
+  background: aqua;
+  width: 100%;
+  height: 30px;
+  text-align: center;
+  position: fixed;
+  bottom: 0;
+  padding-top: 10px;
+}
+
+form .input-container {
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.input-container svg { /*para sobreescrever seletor svg da aula anterior*/
+  position: absolute;
+  right: 20px;
+  top: calc(50% - 12px); /*Calculo para colocar icone com altura centralizada no input*/
+  color: #818181;
+}
+
+.form-container {
+  background: white;
+  border-radius: 5px;
+  max-width: 400px;
+  margin: auto;
+}
+
+form {
+  padding: 10px;
+}
+
+.form-container form h3 {
+  text-align: center;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+form .input-container input, input[type="submit"] {
+  width: 100%;
+  height: 45px;
+  border-radius: 25px;
+  }
+
+form input[type="submit"] {
+  border: 0;
+  background: red;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+form .input-container input{
+  border: 1px solid #E4E4E4;
+  color: #818181;
+  padding: 0 45px 0 25px ;
+  font-size: 1rem;
+}
+
+form .input-container input::placeholder {
+  color: #818181;
+}
+
+.options-container {
+  padding: 0 20px;
+  margin: 25px auto;
+  color: #818181;
+}
+
+.options-container .checkbox-container, .options-container a {
+  display: inline-block;
+  width: 50%;
+}
+
+a {
+  text-align: right;
+  color: red;
+  text-decoration: none;
+}
+
+.form-container form p {
+  color: #818181;
+  text-align: center;
+  border: none;
+}
+
+form .social-media-container {
+  margin: 20px auto;
+  width: fit-content;
+
+}
+
+form .social-media-container .icon-container {
+  background: cornflowerblue;
+  display: inline-block;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: relative;
+}
+
+/*cores dos icones de redes sociais*/
+form .social-media-container .icon-container:nth-child(1){
+  background: #375c98;
+}
+
+form .social-media-container .icon-container:nth-child(2){
+  background: #C54F33;
+}
+
+form .social-media-container .icon-container:nth-child(3){
+  background: #4dadf2;
+}
+
+
+form .social-media-container .icon-container svg {
+ position: absolute;
+ top: calc(50% - 12px);
+ right: calc(50% - 12px);
+ color: white;
+}
+
+hr { /*não funcionou*/
+  color: #818181;
+ }
+
+.footer {
+  width: fit-content;
+  margin: 20px auto;
+
+}
